@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/container_dropshadow"
+    tools:context=".MainActivity">
+
+    <com.ayming.mycomponent.MyCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/myCalendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:showWeekNumber="false"
+        app:firstDayOfWeek="2"
+        app:selectedDateVerticalBar="@android:color/transparent"
+        app:selectedWeekBackgroundColor="@android:color/transparent"
+        app:weekSeparatorLineColor="@android:color/transparent" />
+
+</RelativeLayout>
